@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Автосервис сотый — профессиональный автосервис. Ремонт и обслуживание автомобилей любой сложности в Ростове-на-Дону.">
+  <meta name="keywords" content="автосервис, ремонт авто, обслуживание автомобилей, авторемонт, шиномонтаж">
+  <title>Автосервис сотый — Профессиональный автосервис</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="" class="header__logo-icon icon--32">
+        Автосервис сотый
+      </a>
+      <nav class="header__nav">
+        <a href="index.html" class="header__link header__link--active">Главная</a>
+        <a href="services.html" class="header__link">Услуги</a>
+        <a href="about.html" class="header__link">О нас</a>
+        <a href="reviews.html" class="header__link">Отзывы</a>
+        <a href="contacts.html" class="header__link">Контакты</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему"><img src="img/moon.svg" alt="" class="theme-toggle__icon" id="themeIcon"></button>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Профессиональный <span>автосервис</span> в Ростове-на-Дону</h1>
+        <p class="hero__text">Диагностика, ремонт и обслуживание автомобилей любых марок. Доверьте своё авто профессионалам с опытом более 10 лет.</p>
+        <button class="hero__btn" id="bookingBtn">Записаться на ремонт</button>
+      </div>
+      <div class="hero__image">
+        <div class="hero__image-figure">
+          <img src="img/autoserv.jpg" alt="Автосервис">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Наши <span>услуги</span></h2>
+      <p class="section__subtitle">Полный спектр работ по ремонту и обслуживанию автомобилей</p>
+      <div class="services-preview__grid">
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/diagnostic.svg" alt="Диагностика" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Диагностика</h3>
+          <p class="services-preview__desc">Компьютерная и механическая диагностика всех систем автомобиля</p>
+        </div>
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/engine.svg" alt="Ремонт двигателя" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Ремонт двигателя</h3>
+          <p class="services-preview__desc">Капитальный и текущий ремонт двигателей любых типов</p>
+        </div>
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/tire.svg" alt="Шиномонтаж" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Шиномонтаж</h3>
+          <p class="services-preview__desc">Сезонная замена шин, балансировка и ремонт колёс</p>
+        </div>
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/electric.svg" alt="Электрика" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Электрика</h3>
+          <p class="services-preview__desc">Ремонт электрооборудования и диагностика электронных систем</p>
+        </div>
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/suspension.svg" alt="Ходовая часть" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Ходовая часть</h3>
+          <p class="services-preview__desc">Ремонт подвески, рулевого управления и тормозной системы</p>
+        </div>
+        <div class="services-preview__card">
+          <div class="services-preview__icon">
+            <img src="img/ac.svg" alt="Кондиционеры" class="icon--40 icon--stroke">
+          </div>
+          <h3 class="services-preview__name">Кондиционеры</h3>
+          <p class="services-preview__desc">Заправка и ремонт автомобильных кондиционеров</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__content">
+          <h2 class="section__title">О нашем <span>автосервисе</span></h2>
+          <p class="about__text">Автосервис сотый — это команда профессионалов с многолетним опытом работы. Мы специализируемся на ремонте и обслуживании автомобилей всех марок. Используем современное диагностическое оборудование и качественные запчасти.</p>
+          <p class="about__text">Наша цель — сделать ваш автомобиль безопасным и надёжным. Каждая работа проходит контроль качества.</p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="10">0+</div>
+              <div class="about__stat-label">Лет опыта</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="5000">0+</div>
+              <div class="about__stat-label">Отремонтировано авто</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="98">0+</div>
+              <div class="about__stat-label">% довольных клиентов</div>
+            </div>
+          </div>
+        </div>
+        <div class="about__image">
+          <div class="about__image-figure">
+            <img src="img/autoservis2.webp" alt="Автосервис">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Отзывы <span>клиентов</span></h2>
+      <p class="section__subtitle">Что говорят о нас те, кто уже доверил нам свой автомобиль</p>
+      <div class="reviews__grid">
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">А</div>
+            <div>
+              <div class="reviews__name">Алексей</div>
+              <div class="reviews__car">BMW X5</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Отличный сервис! Сделали диагностику и ремонт подвески быстро и качественно. Цены адекватные, рекомендую.</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">М</div>
+            <div>
+              <div class="reviews__name">Марина</div>
+              <div class="reviews__car">Toyota Camry</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Обращалась по замене масла и фильтров. Всё сделали аккуратно, ещё и подсказали по состоянию машины. Спасибо!</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">Д</div>
+            <div>
+              <div class="reviews__name">Дмитрий</div>
+              <div class="reviews__car">Audi A6</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Ремонтировал двигатель. Сделали капитально, дали гарантию. Машина летает! Очень доволен результатом.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Свяжитесь с <span>нами</span></h2>
+      <p class="section__subtitle">Оставьте заявку и мы перезвоним вам в ближайшее время</p>
+      <form class="form" style="max-width: 580px; margin: 0 auto;" novalidate>
+        <div class="form__group">
+          <label class="form__label" for="name">Ваше имя</label>
+          <input class="form__input" type="text" id="name" placeholder="Иван" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="phone">Номер телефона</label>
+          <input class="form__input" type="tel" id="phone" placeholder="+7 (984) 568-30-21" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="message">Описание проблемы</label>
+          <textarea class="form__textarea" id="message" placeholder="Опишите неисправность..." required></textarea>
+        </div>
+        <button class="form__submit" type="submit">Отправить заявку</button>
+        <div class="form__success"><img src="img/checkmark.svg" alt="" class="icon--16" style="vertical-align:middle;margin-right:4px"> Спасибо! Мы свяжемся с вами в ближайшее время.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal__overlay" id="modalOverlay"></div>
+    <div class="modal__window">
+      <button class="modal__close" id="modalClose">✕</button>
+      <h3 class="modal__title">Записаться на ремонт</h3>
+      <form class="form modal__form" novalidate>
+        <div class="form__group">
+          <label class="form__label" for="modal-name">Ваше имя</label>
+          <input class="form__input" type="text" id="modal-name" placeholder="Иван" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="modal-phone">Номер телефона</label>
+          <input class="form__input" type="tel" id="modal-phone" placeholder="+7 (984) 568-30-21" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="modal-service">Услуга</label>
+          <select class="form__select" id="modal-service">
+            <option value="">— Выберите услугу —</option>
+            <option>Компьютерная диагностика</option>
+            <option>Ремонт двигателя</option>
+            <option>Шиномонтаж</option>
+            <option>Автоэлектрика</option>
+            <option>Ремонт ходовой части</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="modal-message">Комментарий</label>
+          <textarea class="form__textarea" id="modal-message" placeholder="Опишите проблему..."></textarea>
+        </div>
+        <button class="form__submit" type="submit">Отправить заявку</button>
+        <div class="form__success"><img src="img/checkmark.svg" alt="" class="icon--16" style="vertical-align:middle;margin-right:4px"> Заявка отправлена! Мы перезвоним вам.</div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand">
+            <img src="img/logo.svg" alt="" class="footer__brand-icon">
+            Автосервис сотый
+          </div>
+          <p class="footer__desc">Профессиональный автосервис с многолетним опытом. Ремонтируем автомобили любых марок.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Навигация</h4>
+          <a href="index.html" class="footer__link">Главная</a>
+          <a href="services.html" class="footer__link">Услуги</a>
+          <a href="about.html" class="footer__link">О нас</a>
+          <a href="reviews.html" class="footer__link">Отзывы</a>
+          <a href="contacts.html" class="footer__link">Контакты</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Контакты</h4>
+          <span class="footer__link"><img src="img/location.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Ростов-на-Дону, ул. Курчатовая 31А</span>
+          <span class="footer__link"><img src="img/phone.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> +7 (984) 568-30-21</span>
+          <span class="footer__link"><img src="img/email.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> info@сотый.by</span>
+          <span class="footer__link"><img src="img/clock.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Пн-Пт: 9:00–20:00, Сб: 10:00–18:00</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 2026 Автосервис сотый. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

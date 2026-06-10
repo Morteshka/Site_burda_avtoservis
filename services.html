@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Услуги автосервиса сотый — диагностика, ремонт двигателя, ходовой, электрики, шиномонтаж, кондиционеры.">
+  <title>Услуги — Автосервис сотый</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="" class="header__logo-icon icon--32">
+        Автосервис сотый
+      </a>
+      <nav class="header__nav">
+        <a href="index.html" class="header__link">Главная</a>
+        <a href="services.html" class="header__link header__link--active">Услуги</a>
+        <a href="about.html" class="header__link">О нас</a>
+        <a href="reviews.html" class="header__link">Отзывы</a>
+        <a href="contacts.html" class="header__link">Контакты</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему"><img src="img/moon.svg" alt="" class="theme-toggle__icon" id="themeIcon"></button>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Наши <span>услуги</span></h1>
+      <div class="page-header__breadcrumbs">
+        <a href="index.html">Главная</a> / Услуги
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section__subtitle">Мы предлагаем полный спектр услуг по ремонту и обслуживанию автомобилей. Работаем с любыми марками и моделями.</p>
+      <div class="services__list" id="services-list">
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/diagnostic.svg" alt="Диагностика" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Компьютерная диагностика</h3>
+              <span class="services__item-price">от 1 500 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Полная проверка электронных систем автомобиля, считывание и расшифровка ошибок, проверка датчиков и исполнительных механизмов.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/engine.svg" alt="Ремонт двигателя" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Ремонт двигателя</h3>
+              <span class="services__item-price">от 15 000 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Капитальный и текущий ремонт бензиновых и дизельных двигателей. Замена ГРМ, поршневой группы, ремонт головки блока.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/tire.svg" alt="Шиномонтаж" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Шиномонтаж</h3>
+              <span class="services__item-price">от 400 ₽/колесо <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Сезонная замена шин, балансировка, ремонт проколов, восстановление дисков, хранение шин.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/electric.svg" alt="Автоэлектрика" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Автоэлектрика</h3>
+              <span class="services__item-price">от 2 000 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Диагностика и ремонт электрооборудования: генератор, стартер, проводка, блоки управления, датчики.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/suspension.svg" alt="Ремонт ходовой" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Ремонт ходовой части</h3>
+              <span class="services__item-price">от 5 000 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Ремонт подвески, замена амортизаторов, рычагов, сайлентблоков, рулевых тяг и наконечников.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/brake.svg" alt="Тормозная система" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Тормозная система</h3>
+              <span class="services__item-price">от 3 000 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Замена колодок, дисков, суппортов, тормозных шлангов, прокачка и замена тормозной жидкости.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/ac.svg" alt="Кондиционеры" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Кондиционеры</h3>
+              <span class="services__item-price">от 2 500 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Заправка и диагностика автокондиционеров, ремонт компрессоров, замена радиаторов и трубок.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/oil.svg" alt="Замена масла" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Замена масла и фильтров</h3>
+              <span class="services__item-price">от 1 500 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Замена моторного масла, масляного, воздушного, салонного и топливного фильтров.</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__item-icon">
+            <img src="img/body.svg" alt="Кузовной ремонт" class="icon--32 icon--stroke">
+          </div>
+          <div class="services__item-content">
+            <div class="services__item-header accordion__trigger">
+              <h3 class="services__item-name">Кузовной ремонт</h3>
+              <span class="services__item-price">от 10 000 ₽ <span class="accordion__arrow">▼</span></span>
+            </div>
+            <div class="services__item-desc-wrap">
+              <p class="services__item-desc">Рихтовка, покраска, полировка кузова, антикоррозийная обработка, удаление вмятин без покраски.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand">
+            <img src="img/logo.svg" alt="" class="footer__brand-icon">
+            Автосервис сотый
+          </div>
+          <p class="footer__desc">Профессиональный автосервис с многолетним опытом. Ремонтируем автомобили любых марок.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Навигация</h4>
+          <a href="index.html" class="footer__link">Главная</a>
+          <a href="services.html" class="footer__link">Услуги</a>
+          <a href="about.html" class="footer__link">О нас</a>
+          <a href="reviews.html" class="footer__link">Отзывы</a>
+          <a href="contacts.html" class="footer__link">Контакты</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Контакты</h4>
+          <span class="footer__link"><img src="img/location.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Ростов-на-Дону, ул. Курчатовая 31А</span>
+          <span class="footer__link"><img src="img/phone.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> +7 (984) 568-30-21</span>
+          <span class="footer__link"><img src="img/email.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> info@сотый.by</span>
+          <span class="footer__link"><img src="img/clock.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Пн-Пт: 9:00–20:00, Сб: 10:00–18:00</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 2026 Автосервис сотый. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

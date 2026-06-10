@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Отзывы клиентов об автосервисе сотый. Реальные отзывы о качестве ремонта и обслуживания.">
+  <title>Отзывы — Автосервис сотый</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="" class="header__logo-icon icon--32">
+        Автосервис сотый
+      </a>
+      <nav class="header__nav">
+        <a href="index.html" class="header__link">Главная</a>
+        <a href="services.html" class="header__link">Услуги</a>
+        <a href="about.html" class="header__link">О нас</a>
+        <a href="reviews.html" class="header__link header__link--active">Отзывы</a>
+        <a href="contacts.html" class="header__link">Контакты</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему"><img src="img/moon.svg" alt="" class="theme-toggle__icon" id="themeIcon"></button>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Отзывы <span>клиентов</span></h1>
+      <div class="page-header__breadcrumbs">
+        <a href="index.html">Главная</a> / Отзывы
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section__subtitle">Мы дорожим своей репутацией и ценим мнение каждого клиента. Читайте реальные отзывы и делитесь своим опытом.</p>
+
+      <div class="reviews__grid">
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">А</div>
+            <div>
+              <div class="reviews__name">Алексей</div>
+              <div class="reviews__car">BMW X5</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Отличный сервис! Сделали диагностику и ремонт подвески быстро и качественно. Цены адекватные, рекомендую.</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">М</div>
+            <div>
+              <div class="reviews__name">Марина</div>
+              <div class="reviews__car">Toyota Camry</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Обращалась по замене масла и фильтров. Всё сделали аккуратно, ещё и подсказали по состоянию машины. Спасибо!</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">Д</div>
+            <div>
+              <div class="reviews__name">Дмитрий</div>
+              <div class="reviews__car">Audi A6</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Ремонтировал двигатель. Сделали капитально, дали гарантию. Машина летает! Очень доволен результатом.</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">Е</div>
+            <div>
+              <div class="reviews__name">Елена</div>
+              <div class="reviews__car">Volkswagen Passat</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Попала в неприятную ситуацию на дороге, спасибо ребятам — выручили, сделали ремонт быстро и недорого. Буду обращаться ещё!</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">И</div>
+            <div>
+              <div class="reviews__name">Иван</div>
+              <div class="reviews__car">Mercedes E-Class</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Профессиональный подход к делу. Сделали полную диагностику перед покупкой авто, всё подробно рассказали. Спасибо за честность!</div>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__header">
+            <div class="reviews__avatar">С</div>
+            <div>
+              <div class="reviews__name">Сергей</div>
+              <div class="reviews__car">Skoda Octavia</div>
+            </div>
+          </div>
+          <div class="reviews__stars">
+            <img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star"><img src="img/star.svg" alt="" class="reviews__star">
+          </div>
+          <div class="reviews__text">Обслуживаюсь здесь уже второй год. Всегда качественно, быстро и по делу. Мастера реально знают своё дело. Рекомендую!</div>
+        </div>
+      </div>
+
+      <form class="reviews__form form">
+        <h3 class="reviews__form-title">Оставить отзыв</h3>
+        <div class="form__group">
+          <label class="form__label" for="review-name">Ваше имя</label>
+          <input class="form__input" type="text" id="review-name" placeholder="Иван" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="review-car">Марка и модель авто</label>
+          <input class="form__input" type="text" id="review-car" placeholder="Toyota Camry" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="review-text">Ваш отзыв</label>
+          <textarea class="form__textarea" id="review-text" placeholder="Поделитесь впечатлениями о работе автосервиса..." required></textarea>
+        </div>
+        <button class="form__submit" type="submit">Отправить отзыв</button>
+        <div class="form__success"><img src="img/checkmark.svg" alt="" class="icon--16" style="vertical-align:middle;margin-right:4px"> Спасибо за ваш отзыв!</div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand">
+            <img src="img/logo.svg" alt="" class="footer__brand-icon">
+            Автосервис сотый
+          </div>
+          <p class="footer__desc">Профессиональный автосервис с многолетним опытом. Ремонтируем автомобили любых марок.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Навигация</h4>
+          <a href="index.html" class="footer__link">Главная</a>
+          <a href="services.html" class="footer__link">Услуги</a>
+          <a href="about.html" class="footer__link">О нас</a>
+          <a href="reviews.html" class="footer__link">Отзывы</a>
+          <a href="contacts.html" class="footer__link">Контакты</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Контакты</h4>
+          <span class="footer__link"><img src="img/location.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Ростов-на-Дону, ул. Курчатовая 31А</span>
+          <span class="footer__link"><img src="img/phone.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> +7 (984) 568-30-21</span>
+          <span class="footer__link"><img src="img/email.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> info@сотый.by</span>
+          <span class="footer__link"><img src="img/clock.svg" alt="" class="icon--16 icon--stroke" style="vertical-align:middle;margin-right:2px"> Пн-Пт: 9:00–20:00, Сб: 10:00–18:00</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 2026 Автосервис сотый. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

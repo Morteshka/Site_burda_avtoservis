@@ -1,0 +1,7 @@
+﻿<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="19" r="7" stroke="#d42020" stroke-width="2" fill="none"/>
+  <path d="M12 36C12 28 17 24 24 24C31 24 36 28 36 36" stroke="#d42020" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M30 16H36C38 16 40 18 40 20V22C40 24 38 26 36 26L30 24" stroke="#d42020" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M18 16H12C10 16 8 18 8 20V22C8 24 10 26 12 26L18 24" stroke="#d42020" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M18 26L24 30L30 26" stroke="#d42020" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

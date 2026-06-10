@@ -1,0 +1,9 @@
+﻿<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 16H38C39 16 40 17 40 18V34C40 35 39 36 38 36H10C9 36 8 35 8 34V18C8 17 9 16 10 16Z" stroke="#d42020" stroke-width="2" fill="none"/>
+  <circle cx="24" cy="26" r="5" stroke="#d42020" stroke-width="2" fill="none"/>
+  <line x1="12" y1="20" x2="16" y2="20" stroke="#d42020" stroke-width="2"/>
+  <line x1="12" y1="32" x2="16" y2="32" stroke="#d42020" stroke-width="2"/>
+  <line x1="32" y1="20" x2="36" y2="20" stroke="#d42020" stroke-width="2"/>
+  <line x1="32" y1="32" x2="36" y2="32" stroke="#d42020" stroke-width="2"/>
+  <path d="M24 26L28 22" stroke="#d42020" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,176 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+    <linearGradient id="tableA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#343434"/>
+      <stop offset="100%" stop-color="#222"/>
+    </linearGradient>
+    <linearGradient id="redA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d42020"/>
+      <stop offset="100%" stop-color="#a31616"/>
+    </linearGradient>
+    <filter id="shadowA">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="16" fill="url(#bgA)"/>
+  <rect x="0" y="0" width="600" height="3" fill="url(#redA)" opacity="0.5"/>
+  <circle cx="500" cy="80" r="160" fill="#d42020" opacity="0.03"/>
+
+  <!-- Wall -->
+  <rect x="0" y="70" width="600" height="1" fill="#2a2a2a"/>
+
+  <!-- Tool board on wall -->
+  <rect x="410" y="85" width="160" height="85" rx="3" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+
+  <!-- Pegboard holes -->
+  <circle cx="425" cy="100" r="2.5" fill="#333"/>
+  <circle cx="445" cy="100" r="2.5" fill="#333"/>
+  <circle cx="465" cy="100" r="2.5" fill="#333"/>
+  <circle cx="485" cy="100" r="2.5" fill="#333"/>
+  <circle cx="425" cy="120" r="2.5" fill="#333"/>
+  <circle cx="445" cy="120" r="2.5" fill="#333"/>
+  <circle cx="465" cy="120" r="2.5" fill="#333"/>
+  <circle cx="485" cy="120" r="2.5" fill="#333"/>
+  <circle cx="425" cy="140" r="2.5" fill="#333"/>
+  <circle cx="445" cy="140" r="2.5" fill="#333"/>
+  <circle cx="465" cy="140" r="2.5" fill="#333"/>
+  <circle cx="485" cy="140" r="2.5" fill="#333"/>
+  <circle cx="425" cy="158" r="2.5" fill="#333"/>
+  <circle cx="445" cy="158" r="2.5" fill="#333"/>
+  <circle cx="465" cy="158" r="2.5" fill="#333"/>
+  <circle cx="485" cy="158" r="2.5" fill="#333"/>
+
+  <!-- Hanging tools -->
+  <rect x="435" y="98" width="2" height="25" fill="#666"/>
+  <rect x="430" y="118" width="12" height="4" rx="1.5" fill="#777"/>
+  <rect x="450" y="100" width="2" height="20" fill="#555"/>
+  <circle cx="451" cy="122" r="4" fill="#666"/>
+  <rect x="470" y="96" width="2" height="28" fill="#666"/>
+  <rect x="465" y="120" width="12" height="5" rx="1.5" fill="#777"/>
+
+  <!-- Shelf on wall -->
+  <rect x="30" y="85" width="140" height="6" rx="2" fill="#2a2a2a" stroke="#3a3a3a" stroke-width="0.5"/>
+  <!-- Oil bottles on shelf -->
+  <rect x="40" y="62" width="14" height="23" rx="2" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+  <rect x="60" y="64" width="12" height="21" rx="2" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+  <rect x="80" y="60" width="16" height="25" rx="2" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+  <rect x="105" y="65" width="10" height="20" rx="2" fill="#333" stroke="#444" stroke-width="0.5"/>
+  <rect x="125" y="63" width="12" height="22" rx="2" fill="#333" stroke="#444" stroke-width="0.5"/>
+
+  <!-- Diagnostic chart on wall -->
+  <rect x="180" y="85" width="120" height="60" rx="3" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <!-- Chart grid -->
+  <line x1="190" y1="135" x2="290" y2="135" stroke="#2a2a2a" stroke-width="0.5"/>
+  <line x1="190" y1="125" x2="290" y2="125" stroke="#2a2a2a" stroke-width="0.5"/>
+  <line x1="190" y1="115" x2="290" y2="115" stroke="#2a2a2a" stroke-width="0.5"/>
+  <line x1="190" y1="105" x2="290" y2="105" stroke="#2a2a2a" stroke-width="0.5"/>
+  <!-- Data line -->
+  <polyline points="195,132 210,125 225,115 240,118 255,108 270,112 285,105" fill="none" stroke="#d42020" stroke-width="1.8" opacity="0.8"/>
+  <!-- Bar chart -->
+  <rect x="200" y="120" width="10" height="15" fill="#d42020" opacity="0.3" rx="1"/>
+  <rect x="220" y="112" width="10" height="23" fill="#d42020" opacity="0.3" rx="1"/>
+  <rect x="240" y="118" width="10" height="17" fill="#d42020" opacity="0.3" rx="1"/>
+  <rect x="260" y="108" width="10" height="27" fill="#d42020" opacity="0.3" rx="1"/>
+
+  <!-- Red accent bar on chart -->
+  <rect x="190" y="100" width="2" height="35" fill="#d42020" opacity="0.3" rx="1"/>
+
+  <!-- Tire hanging on wall -->
+  <circle cx="560" cy="110" r="22" fill="none" stroke="#333" stroke-width="6"/>
+  <circle cx="560" cy="110" r="18" fill="none" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="560" cy="110" r="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <circle cx="560" cy="110" r="10" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Workbench top -->
+  <rect x="30" y="175" width="530" height="14" rx="2" fill="url(#tableA)" stroke="#3a3a3a" stroke-width="0.8" filter="url(#shadowA)"/>
+  <rect x="30" y="189" width="530" height="3" fill="#1a1a1a"/>
+
+  <!-- Table legs -->
+  <rect x="45" y="192" width="8" height="130" fill="#222"/>
+  <rect x="537" y="192" width="8" height="130" fill="#222"/>
+
+  <!-- Floor -->
+  <rect x="0" y="320" width="600" height="80" fill="#151515"/>
+  <line x1="0" y1="320" x2="600" y2="320" stroke="#252525" stroke-width="1"/>
+
+  <!-- Laptop -->
+  <rect x="130" y="147" width="75" height="6" rx="2" fill="#444"/>
+  <rect x="135" y="120" width="65" height="28" rx="2.5" fill="#222" stroke="#3a3a3a" stroke-width="0.8"/>
+  <rect x="139" y="124" width="57" height="20" rx="1.5" fill="#131313"/>
+  <!-- Screen glow -->
+  <rect x="139" y="124" width="57" height="20" rx="1.5" fill="#d42020" opacity="0.04"/>
+  <!-- Code lines on screen -->
+  <line x1="145" y1="129" x2="185" y2="129" stroke="#d42020" stroke-width="1" opacity="0.6"/>
+  <line x1="145" y1="134" x2="170" y2="134" stroke="#d42020" stroke-width="1" opacity="0.4"/>
+  <line x1="145" y1="139" x2="178" y2="139" stroke="#444" stroke-width="1"/>
+  <rect x="145" y="140" width="30" height="2" rx="0.5" fill="#2ecc71" opacity="0.5"/>
+
+  <!-- OBD Scanner -->
+  <rect x="250" y="168" width="22" height="9" rx="2" fill="#333" stroke="#555" stroke-width="0.8"/>
+  <rect x="254" y="164" width="14" height="5" rx="1.5" fill="#444"/>
+  <circle cx="261" cy="164" r="2.5" fill="#d42020" opacity="0.6"/>
+  <line x1="272" y1="173" x2="285" y2="178" stroke="#555" stroke-width="1.2"/>
+
+  <!-- Brake disc on table -->
+  <circle cx="340" cy="177" r="13" fill="#333" stroke="#444" stroke-width="1.2"/>
+  <circle cx="340" cy="177" r="5" fill="#2a2a2a" stroke="#555" stroke-width="0.8"/>
+  <circle cx="340" cy="177" r="2" fill="#555"/>
+  <!-- Disc drill holes -->
+  <circle cx="340" cy="169" r="1" fill="#444"/>
+  <circle cx="348" cy="177" r="1" fill="#444"/>
+  <circle cx="340" cy="185" r="1" fill="#444"/>
+  <circle cx="332" cy="177" r="1" fill="#444"/>
+
+  <!-- Air impact wrench -->
+  <rect x="380" y="170" width="38" height="7" rx="3" fill="#555" stroke="#666" stroke-width="0.5"/>
+  <rect x="372" y="172" width="10" height="5" rx="2" fill="#444"/>
+  <rect x="400" y="168" width="5" height="9" rx="1" fill="#666"/>
+  <!-- Socket -->
+  <rect x="415" y="171" width="6" height="6" rx="1" fill="#444"/>
+
+  <!-- Coffee mug -->
+  <rect x="490" y="163" width="14" height="14" rx="2" fill="#333" stroke="#555" stroke-width="0.8"/>
+  <path d="M504 167 Q508 167 508 171 Q508 175 504 175" fill="none" stroke="#555" stroke-width="0.8"/>
+  <ellipse cx="497" cy="163" rx="5" ry="2" fill="#2a2a2a" stroke="#555" stroke-width="0.5"/>
+  <!-- Coffee -->
+  <ellipse cx="497" cy="164" rx="4" ry="1.5" fill="#3a2a1a"/>
+  <!-- Steam -->
+  <path d="M494 160 Q493 156 495 153" fill="none" stroke="#666" stroke-width="0.8" opacity="0.3"/>
+  <path d="M498 159 Q497 155 499 152" fill="none" stroke="#666" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Loose document on table -->
+  <rect x="100" y="170" width="22" height="16" rx="1" fill="#222" stroke="#3a3a3a" stroke-width="0.5" transform="rotate(-5 100 170)"/>
+  <line x1="105" y1="175" x2="118" y2="175" stroke="#444" stroke-width="0.5"/>
+  <line x1="105" y1="179" x2="115" y2="179" stroke="#444" stroke-width="0.5"/>
+
+  <!-- Spark plug -->
+  <g transform="translate(440, 172)">
+    <rect x="0" y="0" width="3" height="8" rx="0.5" fill="#666"/>
+    <rect x="-2" y="-3" width="7" height="5" rx="1" fill="#444"/>
+    <line x1="0" y1="8" x2="0" y2="11" stroke="#777" stroke-width="0.8"/>
+  </g>
+
+  <!-- Tire on floor -->
+  <circle cx="550" cy="250" r="32" fill="none" stroke="#333" stroke-width="8"/>
+  <circle cx="550" cy="250" r="28" fill="none" stroke="#282828" stroke-width="5"/>
+  <circle cx="550" cy="250" r="14" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="550" cy="250" r="14" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Car battery on floor -->
+  <rect x="60" y="280" width="30" height="18" rx="2" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+  <rect x="60" y="280" width="30" height="4" rx="1" fill="#3a3a3a"/>
+  <rect x="70" y="278" width="10" height="3" rx="1" fill="#d42020" opacity="0.7"/>
+  <rect x="72" y="276" width="6" height="2" rx="1" fill="#d42020" opacity="0.5"/>
+
+  <!-- Ceiling light -->
+  <rect x="170" y="8" width="60" height="3" rx="1" fill="#3a3a3a"/>
+  <ellipse cx="200" cy="18" rx="15" ry="10" fill="#ffd700" opacity="0.05"/>
+
+  <!-- Decorative -->
+  <text x="300" y="58" font-family="monospace" font-size="8" fill="#d42020" opacity="0.1">ДИАГНОСТИКА</text>
+</svg>

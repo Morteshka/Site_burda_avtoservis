@@ -1,0 +1,150 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgH" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+    <linearGradient id="floorH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#252525"/>
+      <stop offset="100%" stop-color="#151515"/>
+    </linearGradient>
+    <linearGradient id="carBodyH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#444"/>
+      <stop offset="100%" stop-color="#222"/>
+    </linearGradient>
+    <linearGradient id="carRoofH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="winH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#556"/>
+      <stop offset="100%" stop-color="#334"/>
+    </linearGradient>
+    <linearGradient id="redH" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d42020"/>
+      <stop offset="100%" stop-color="#a31616"/>
+    </linearGradient>
+    <filter id="glowH">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="16" fill="url(#bgH)"/>
+  <rect x="0" y="0" width="600" height="3" fill="url(#redH)" opacity="0.5"/>
+
+  <!-- Light glow -->
+  <circle cx="480" cy="120" r="180" fill="#d42020" opacity="0.04"/>
+  <circle cx="150" cy="340" r="120" fill="#d42020" opacity="0.03"/>
+
+  <!-- Floor -->
+  <rect x="0" y="310" width="600" height="90" fill="url(#floorH)"/>
+  <line x1="0" y1="310" x2="600" y2="310" stroke="#333" stroke-width="1"/>
+  <line x1="0" y1="330" x2="600" y2="330" stroke="#222" stroke-width="0.5"/>
+  <line x1="0" y1="360" x2="600" y2="360" stroke="#222" stroke-width="0.5"/>
+
+  <!-- Wall shelf -->
+  <rect x="20" y="55" width="200" height="6" rx="2" fill="#2a2a2a" stroke="#3a3a3a" stroke-width="0.5"/>
+  <!-- Small items on shelf -->
+  <rect x="35" y="40" width="12" height="15" rx="1.5" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+  <rect x="55" y="42" width="10" height="13" rx="1.5" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+  <rect x="75" y="38" width="14" height="17" rx="1.5" fill="#333" stroke="#d42020" stroke-width="0.8"/>
+
+  <!-- Lift posts -->
+  <rect x="155" y="185" width="12" height="135" rx="2" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+  <rect x="385" y="185" width="12" height="135" rx="2" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+  <!-- Post bases -->
+  <rect x="150" y="310" width="22" height="8" rx="2" fill="#444"/>
+  <rect x="380" y="310" width="22" height="8" rx="2" fill="#444"/>
+  <!-- Lift arms -->
+  <path d="M130 250 L170 250" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+  <path d="M382 250 L422 250" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Car body - more realistic profile -->
+  <path d="M145 250 L150 230 L160 215 L175 205 L195 198 L230 195 L340 195 L370 200 L395 210 L415 225 L430 245 L435 250 Z" fill="url(#carBodyH)" stroke="#555" stroke-width="1.2"/>
+
+  <!-- Car roofline -->
+  <path d="M200 195 L215 172 L230 163 L250 158 L310 158 L335 163 L350 172 L365 195 Z" fill="url(#carRoofH)" stroke="#555" stroke-width="1.2"/>
+
+  <!-- Windows -->
+  <path d="M217 192 L232 168 L260 165 L260 192 Z" fill="url(#winH)"/>
+  <path d="M270 192 L270 165 L310 165 L335 180 L345 192 Z" fill="url(#winH)"/>
+  <!-- Window divider -->
+  <line x1="260" y1="165" x2="260" y2="192" stroke="#555" stroke-width="1.2"/>
+  <!-- Window frame accent -->
+  <path d="M217 192 L232 168 L260 165" fill="none" stroke="#555" stroke-width="1.2"/>
+  <path d="M270 165 L270 192" fill="none" stroke="#555" stroke-width="1.2"/>
+
+  <!-- Hood line -->
+  <line x1="365" y1="195" x2="395" y2="210" stroke="#555" stroke-width="1"/>
+  <!-- Trunk line -->
+  <line x1="200" y1="195" x2="185" y2="200" stroke="#555" stroke-width="1"/>
+
+  <!-- Headlight -->
+  <ellipse cx="415" cy="220" rx="9" ry="5" fill="#ffd700" opacity="0.5"/>
+  <ellipse cx="415" cy="220" rx="5" ry="3" fill="#fff" opacity="0.3"/>
+  <!-- Taillight -->
+  <ellipse cx="155" cy="225" rx="7" ry="4" fill="#d42020" opacity="0.6"/>
+
+  <!-- Front bumper detail -->
+  <rect x="400" y="240" width="30" height="3" rx="1" fill="#d42020" opacity="0.3"/>
+
+  <!-- Wheels -->
+  <g>
+    <circle cx="190" cy="250" r="20" fill="#151515" stroke="#333" stroke-width="2.5"/>
+    <circle cx="190" cy="250" r="11" fill="#2a2a2a" stroke="#444" stroke-width="1.5"/>
+    <circle cx="190" cy="250" r="4" fill="#555"/>
+    <line x1="190" y1="239" x2="190" y2="261" stroke="#444" stroke-width="1.2"/>
+    <line x1="179" y1="250" x2="201" y2="250" stroke="#444" stroke-width="1.2"/>
+  </g>
+  <g>
+    <circle cx="365" cy="250" r="20" fill="#151515" stroke="#333" stroke-width="2.5"/>
+    <circle cx="365" cy="250" r="11" fill="#2a2a2a" stroke="#444" stroke-width="1.5"/>
+    <circle cx="365" cy="250" r="4" fill="#555"/>
+    <line x1="365" y1="239" x2="365" y2="261" stroke="#444" stroke-width="1.2"/>
+    <line x1="354" y1="250" x2="376" y2="250" stroke="#444" stroke-width="1.2"/>
+  </g>
+
+  <!-- Wheel arch highlights -->
+  <path d="M168 248 Q190 230 212 248" fill="none" stroke="#d42020" stroke-width="1.5" opacity="0.15"/>
+  <path d="M343 248 Q365 230 387 248" fill="none" stroke="#d42020" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- Side skirt -->
+  <rect x="195" y="244" width="165" height="4" rx="1" fill="#d42020" opacity="0.2"/>
+
+  <!-- Exhaust pipe -->
+  <rect x="145" y="248" width="8" height="4" rx="1" fill="#555"/>
+
+  <!-- Toolbox on floor -->
+  <rect x="460" y="270" width="65" height="36" rx="3" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <rect x="460" y="270" width="65" height="6" rx="2" fill="#3a3a3a"/>
+  <rect x="478" y="276" width="28" height="3" rx="1" fill="#555"/>
+  <circle cx="492" cy="288" r="4" fill="#444"/>
+  <rect x="472" y="294" width="40" height="3" rx="1" fill="#555"/>
+  <!-- Toolbox handle -->
+  <path d="M475 276 Q492 268 510 276" fill="none" stroke="#555" stroke-width="2"/>
+
+  <!-- Wrench -->
+  <g transform="translate(540, 255) rotate(12)">
+    <rect x="0" y="0" width="4" height="45" rx="1.5" fill="#666"/>
+    <rect x="-5" y="-6" width="14" height="10" rx="2" fill="#777"/>
+  </g>
+
+  <!-- Ceiling light -->
+  <rect x="240" y="12" width="80" height="8" rx="3" fill="#3a3a3a"/>
+  <line x1="260" y1="20" x2="260" y2="30" stroke="#555" stroke-width="1.5"/>
+  <line x1="300" y1="20" x2="300" y2="30" stroke="#555" stroke-width="1.5"/>
+  <rect x="255" y="28" width="50" height="14" rx="2" fill="#ffd700" opacity="0.12"/>
+  <ellipse cx="280" cy="42" rx="20" ry="8" fill="#ffd700" opacity="0.06"/>
+
+  <!-- Sign on wall -->
+  <rect x="440" y="60" width="120" height="28" rx="4" fill="#1f1f1f" stroke="#3a3a3a" stroke-width="1"/>
+  <text x="500" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#d42020" text-anchor="middle" letter-spacing="2">АВТОСЕРВИС</text>
+
+  <!-- Small sign -->
+  <rect x="440" y="95" width="120" height="18" rx="2" fill="#1f1f1f" stroke="#3a3a3a" stroke-width="0.5"/>
+  <text x="500" y="107" font-family="Arial, sans-serif" font-size="8" fill="#666" text-anchor="middle">ШИНОМОНТАЖ · ДИАГНОСТИКА</text>
+
+  <!-- Decorative bolts -->
+  <circle cx="450" cy="68" r="2" fill="#555"/>
+  <circle cx="550" cy="68" r="2" fill="#555"/>
+</svg>

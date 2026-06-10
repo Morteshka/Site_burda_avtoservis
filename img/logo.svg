@@ -1,0 +1,8 @@
+﻿<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red circle background -->
+  <circle cx="32" cy="32" r="30" fill="#d42020"/>
+  <!-- White wrench -->
+  <rect x="20" y="39" width="24" height="5" rx="2.5" fill="#fff"/>
+  <path d="M20 39 L15 39 C12 39 10 37 10 35 L10 33 C10 31 12 29 15 29 L18 29" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M44 39 L49 39 C52 39 54 37 54 35 L54 33 C54 31 52 29 49 29 L46 29" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
